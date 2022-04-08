@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/IsNumericBenchDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/IsNumericBenchDemo/actions/workflows/ci.yml)
+
 # IsNumericBenchDemo
 ```
 Benchmarking ways of checking if some small or large string is numeric
@@ -5,9 +7,9 @@ Benchmarking ways of checking if some small or large string is numeric
 
 In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) library in order to benchmark various ways of checking if some small or large string is numeric.
 >
-> :one: `SmallNumericBench` : a bench for small number with size inferior or equal than 19 caracters (which is the long type max value)
+> :one: `SmallNumericBench` : a bench for small numbers (size inferior or equal than 19 caracters)
 >
-> :two: `LargeNumericBench` : a bench for large number with size superior or equal to 20 caracters
+> :two: `LargeNumericBench` : a bench for large numbers (size superior or equal to 20 caracters)
 >
 
 ```
@@ -30,4 +32,4 @@ In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDot
 ```
 
 >
-**`Tools`** : vs22, net 6.0, benchmark-dotnet
+**`Tools`** : vs22, net 6.0, xunit, fluent-assertions benchmark-dotnet
