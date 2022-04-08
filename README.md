@@ -7,9 +7,9 @@ Benchmarking ways of checking if some small or large string is numeric
 
 In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) library in order to benchmark various ways of checking if some small or large string is numeric.
 >
-> :one: `SmallNumericBench` : a bench for small numbers (size inferior or equal than 19 caracters)
+> :one: `SmallNumericBench` : a bench for small numbers (size less than or equal to 19 characters)
 >
-> :two: `LargeNumericBench` : a bench for large numbers (size superior or equal to 20 caracters)
+> :two: `LargeNumericBench` : a bench for large numbers (size greater than or equal to 20 characters)
 >
 
 ```
