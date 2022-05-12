@@ -32,4 +32,4 @@ In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDot
 ```
 
 >
-**`Tools`** : vs22, net 6.0, xunit, fluent-assertions benchmark-dotnet
+**`Tools`** : vs22, net 6.0, xunit, fluent-assertions, benchmark-dotnet
